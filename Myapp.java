@@ -9,8 +9,8 @@ class MyApp {
         while (true) {
             System.out.print("Your guess? ");
             Integer guess = new Scanner(System.in).nextInt();
-            //count = count + 1;
-            //count += 1;
+            // count = count + 1;
+            // count += 1;
             count++;
 
             if (answer == guess) {
